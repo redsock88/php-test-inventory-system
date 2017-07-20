@@ -1,12 +1,12 @@
 CREATE TABLE IF NOT EXISTS `test`.`Garments` (
-  `garmentID` INT NULL,
-  `type` VARCHAR(45) NULL,
-  `size` VARCHAR(45) NULL,
-  `color` VARCHAR(45) NULL,
-  `timePeriod` VARCHAR(45) NULL,
-  `createdDate` DATE NULL,
-  `checkoutDate` DATE NULL,
-  `status` VARCHAR(45) NULL,
+  `garmentID` INT,
+  `type` VARCHAR(45),
+  `size` VARCHAR(45),
+  `color` VARCHAR(45),
+  `timePeriod` VARCHAR(45),
+  `createdDate` DATE,
+  `checkoutDate` DATE,
+  `status` VARCHAR(45),
   PRIMARY KEY (`garmentID`),
   UNIQUE INDEX `garmentID_UNIQUE` (`garmentID` ASC))
 ENGINE = InnoDB;
